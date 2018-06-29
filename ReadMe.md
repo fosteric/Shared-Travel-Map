@@ -33,6 +33,7 @@ for the new trip and planning can begin!
 - Find friends
 - Add friends
 - View friends
+
 #####View friend's travel map
 
 - View friends' past destinations
