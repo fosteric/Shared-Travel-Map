@@ -12,7 +12,7 @@ for the new trip and planning can begin!
 
 #####Create travel map with custom destinations
 
-- Add destinations by city or country
+- Add destinations by city
 - Add/delete past destinations
 - Add/delete aspired destinations
 - Add home destination
