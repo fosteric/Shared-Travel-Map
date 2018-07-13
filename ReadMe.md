@@ -1,11 +1,11 @@
 ##Description:
 
-Shared Travel Map is an app that allows travelers to share their past and present trips and
-plan future trips with friends. Travelers simply pin previous and aspired travel destinations
+Shared Travel Map is an app that allows travelers to share their past and aspired trips with
+friends and facilitate planning new trips. Travelers can pin previous and aspired travel destinations
 on a map, to create a view of their travel history and goals. Once created, travelers can connect
-with their friends to get a view of their friend's travel. For friends of choice, travelers
-can create a shared view that allows them to see common destinations and send comments to
-plan for a future trip. Once planning begins, a shared experience destination can be created
+with their friends to get a view of their friend's travel as well. Travelers can
+then create a shared view that allows them to see common destinations and
+plan for a future trip. Once planning begins, a shared destination can be created
 for the new trip and planning can begin!
 
 ##Features and Acceptance Criteria:
