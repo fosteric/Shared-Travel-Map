@@ -2,7 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad381d05-32c5-4ad5-8041-a0cb51a71fd9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alidade/config/PersistenceConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DestinationControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedTravelMapIonicApp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alidade/controller/DestinationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alidade/controller/DestinationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alidade/controller/FriendListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alidade/controller/FriendListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alidade/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alidade/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alidade/controller/MapController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alidade/controller/MapController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alidade/controller/MessageBoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alidade/controller/MessageBoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alidade/controller/MessageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alidade/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alidade/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alidade/controller/UserLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alidade/controller/UserLoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alidade/model/Destination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alidade/model/Destination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alidade/model/FriendList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alidade/model/FriendList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alidade/model/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alidade/model/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alidade/model/Message.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alidade/model/MessageBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alidade/model/MessageBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alidade/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alidade/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alidade/model/UserLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alidade/model/UserLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alidade/repository/DestinationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alidade/repository/DestinationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alidade/repository/FriendListRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alidade/repository/FriendListRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alidade/repository/MapRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alidade/repository/MapRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alidade/repository/MessageBoardRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alidade/repository/MessageBoardRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alidade/repository/MessageRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alidade/repository/UserLoginRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alidade/repository/UserLoginRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alidade/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alidade/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alidade/SharedTravelApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alidade/SharedTravelApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alidade/controller/DestinationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alidade/controller/DestinationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alidade/controller/FriendListController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alidade/controller/FriendListController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alidade/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alidade/controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alidade/controller/MapController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alidade/controller/MapController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alidade/controller/MessageBoardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alidade/controller/MessageBoardController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alidade/controller/MessageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alidade/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alidade/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alidade/controller/UserLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alidade/controller/UserLoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alidade/model/Destination.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alidade/model/Destination.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alidade/model/FriendList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alidade/model/FriendList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alidade/model/Map.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alidade/model/Map.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alidade/model/Message.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alidade/model/MessageBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alidade/model/MessageBoard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alidade/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alidade/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alidade/model/UserLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alidade/model/UserLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alidade/repository/DestinationRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alidade/repository/DestinationRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alidade/repository/FriendListRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alidade/repository/FriendListRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alidade/repository/MapRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alidade/repository/MapRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alidade/repository/MessageBoardRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alidade/repository/MessageBoardRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alidade/repository/MessageRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alidade/repository/UserLoginRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alidade/repository/UserLoginRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alidade/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alidade/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UserControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/UserControllerTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,53 +67,241 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/repository/UserRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/model/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="MessageBoard.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/model/MessageBoard.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="135">
+                  <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="UserLogin.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/model/UserLogin.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="10" selection-start-line="10" selection-end-line="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/model/User.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="8" selection-start-line="8" selection-end-line="8" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/model/Map.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="135">
+                  <caret line="9" selection-start-line="9" selection-end-line="9" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="FriendList.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/model/FriendList.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="135">
+                  <caret line="9" selection-start-line="9" selection-end-line="9" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Destination.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/model/Destination.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="75">
+                  <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MapRepository.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/repository/MapRepository.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MessageBoardRepository.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/repository/MessageBoardRepository.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="UserLoginRepository.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/repository/UserLoginRepository.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="UserRepository.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/repository/UserRepository.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/controller/UserController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="11" selection-start-line="11" selection-end-line="11" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SharedTravelApp.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/SharedTravelApp.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="45">
+                  <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AppTest.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/AppTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="165">
+                  <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret selection-end-column="43" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pom.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="780">
+                  <caret line="52" column="20" lean-forward="true" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="UserLoginController.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/controller/UserLoginController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="135">
+                  <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MapController.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/controller/MapController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="10" selection-start-line="10" selection-end-line="10" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/controller/HomeController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="8" selection-start-line="8" selection-end-line="8" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="FriendListController.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/controller/FriendListController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="10" selection-start-line="10" selection-end-line="10" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MessageBoardController.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/controller/MessageBoardController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="135">
+                  <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -83,36 +324,38 @@
         <option value="$PROJECT_DIR$/src/main/java/com/alidade/repository/ProfileRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alidade/model/Feed.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alidade/App.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alidade/SharedTravelApp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alidade/controller/HomeController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alidade/repository/DestinationRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alidade/repository/MessageBoardRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alidade/repository/FriendListRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alidade/repository/MapRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alidade/repository/MessageRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alidade/repository/UserLoginRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alidade/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alidade/controller/FriendController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alidade/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UserControllerClass.java" />
+        <option value="$PROJECT_DIR$/src/test/java/AppTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UserControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DestinationControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alidade/model/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alidade/model/UserLogin.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alidade/model/MessageBoard.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alidade/model/Message.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alidade/model/Map.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alidade/model/FriendList.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alidade/model/Destination.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alidade/controller/FriendController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alidade/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alidade/controller/UserLoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alidade/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alidade/controller/MessageController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alidade/controller/MessageBoardController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alidade/controller/MapController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alidade/controller/HomeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alidade/controller/FriendListController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alidade/controller/DestinationController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alidade/controller/UserLoginController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UserControllerClass.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alidade/model/User.java" />
-        <option value="$PROJECT_DIR$/src/test/java/AppTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alidade/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UserControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alidade/config/PersistanceConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alidade/model/MessageBoard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alidade/repository/DestinationRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alidade/repository/FriendListRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alidade/repository/MapRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alidade/repository/MessageBoardRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alidade/repository/UserLoginRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alidade/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alidade/SharedTravelApp.java" />
       </list>
     </option>
   </component>
@@ -132,11 +375,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="128" />
-    <option name="y" value="23" />
-    <option name="width" value="1068" />
-    <option name="height" value="713" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-320" />
+    <option name="y" value="-1057" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -146,7 +389,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,6 +430,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="alidade" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SharedTravelMap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shared-Travel-Map" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="alidade" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -207,12 +459,32 @@
               <item name="alidade" type="462c0819:PsiDirectoryNode" />
               <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SharedTravelMap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shared-Travel-Map" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SharedTravelMap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shared-Travel-Map" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SharedTravelMap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shared-Travel-Map" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,7 +510,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest">
+  <component name="RunManager" selected="JUnit.All in SharedTravelMap">
     <configuration name="SharedTravelApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.alidade.SharedTravelApp" />
       <module name="SharedTravelMap" />
@@ -252,6 +524,23 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="All in SharedTravelMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SharedTravelMap" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SharedTravelMap" />
@@ -303,6 +592,10 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="SharedTravelApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SharedTravelMap" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alidade.SharedTravelApp" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -326,15 +619,18 @@
       <listeners />
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.SharedTravelApp" />
       <item itemvalue="Application.SharedTravelApp" />
       <item itemvalue="JUnit.UserControllerTest" />
       <item itemvalue="JUnit.AppTest" />
+      <item itemvalue="JUnit.All in SharedTravelMap" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in SharedTravelMap" />
+        <item itemvalue="Application.SharedTravelApp" />
         <item itemvalue="JUnit.AppTest" />
         <item itemvalue="JUnit.UserControllerTest" />
-        <item itemvalue="Application.SharedTravelApp" />
       </list>
     </recent_temporary>
   </component>
@@ -357,6 +653,9 @@
       <workItem from="1531487567020" duration="597000" />
       <workItem from="1531488707527" duration="4718000" />
       <workItem from="1531513042706" duration="2245000" />
+      <workItem from="1531668512721" duration="2164000" />
+      <workItem from="1531674537876" duration="2835000" />
+      <workItem from="1531677568975" duration="2641000" />
     </task>
     <servers />
   </component>
@@ -367,13 +666,18 @@
     <history-entry file="AppTest - 2018.07.13 at 11h 35m 14s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_SharedTravelMap - 2018.07.15 at 12h 54m 30s.xml">
+      <configuration name="All in SharedTravelMap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_SharedTravelMap - 2018.07.15 at 14h 26m 15s.xml">
+      <configuration name="All in SharedTravelMap" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24423000" />
+    <option name="totallyTimeSpent" value="32063000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="128" y="23" width="1068" height="713" extended-state="0" />
-    <editor active="true" />
+    <frame x="-320" y="-1057" width="1920" height="1057" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -387,15 +691,16 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32916668" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.12527233" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36979166" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.39766082" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17412141" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Web" order="3" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -403,7 +708,6 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32935154" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -416,38 +720,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/controller/UserLoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/controller/DestinationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/model/TimeFrame.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/model/PastDestination.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/model/FutureDestination.java" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-873" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shared-Travel-Map.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/alidade/alidade.java" />
     <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -465,39 +739,94 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/repository/FeedRepository.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/repository/FriendRepository.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/repository/ProfileRepository.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/SharedTravelApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/model/UserProfile.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/model/TravelFeed.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/repository/DestinationRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/UserControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        <state>
+          <caret selection-end-line="42" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/repository/MessageBoardRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DestinationControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-test.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.3.1.RELEASE/spring-boot-autoconfigure-1.3.1.RELEASE.jar!/org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-prod.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared-Travel-Map.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/repository/MessageRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/model/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/controller/MessageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/config/PersistenceConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/repository/DestinationRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -507,7 +836,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/repository/FriendListRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -516,18 +845,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/repository/MapRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        <state relative-caret-position="90">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/repository/MessageRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/repository/MessageBoardRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
+        <state relative-caret-position="90">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -536,55 +865,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/repository/UserLoginRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/model/MessageBoard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        <state relative-caret-position="90">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/model/UserLogin.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/model/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/model/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/model/FriendList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        <state relative-caret-position="90">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -593,21 +885,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/model/Destination.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-test.properties">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/model/FriendList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-prod.properties">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/model/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/model/MessageBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/model/UserLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/controller/DestinationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -617,7 +947,17 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/controller/FriendListController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -627,7 +967,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/controller/MapController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -636,18 +976,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/controller/MessageBoardController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+        <state relative-caret-position="135">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/controller/MessageController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -656,18 +996,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/controller/UserLoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="135">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/controller/HomeController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/SharedTravelApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="51" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="51" />
+        <state relative-caret-position="45">
+          <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -684,50 +1024,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UserControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="41" column="45" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        <state relative-caret-position="780">
+          <caret line="52" column="20" lean-forward="true" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/repository/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret selection-end-column="43" />
         </state>
       </provider>
     </entry>

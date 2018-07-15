@@ -7,14 +7,21 @@ public class Destination {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "DESTINATION_ID")
     private Long id;
+    private String destinationType;
     private String city;
-    private String state;
+    private String country;
     private String startDate;
     private String endDate;
     private String travelType;
     private String favoriteThing;
     private String notes;
 
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public Long getId() {
+        return this.id;
+    }
 }
