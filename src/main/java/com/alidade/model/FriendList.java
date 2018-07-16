@@ -8,5 +8,6 @@ public class FriendList {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    private List<User> friends;
+//    @OneToMany(targetEntity = User.class)
+//    private List<User> friends;
 }

@@ -4,15 +4,14 @@ import com.alidade.model.Destination;
 import com.alidade.repository.DestinationRepository;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("api/v1/")
+@RequestMapping(path="api/v1/")
 public class DestinationController {
 
     @Autowired
-    DestinationRepository destinationRepository;
+    private DestinationRepository destinationRepository;
 
     //CREATE
     @RequestMapping(value = "destinations", method = RequestMethod.POST)

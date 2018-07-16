@@ -4,20 +4,23 @@ import com.alidade.model.User;
 import com.alidade.repository.UserRepository;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Configuration;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import javax.xml.ws.Response;
+
 @RestController
-@RequestMapping("api/v1/")
+@RequestMapping(path="api/v1/")
 public class UserController {
 
     @Autowired
-    UserRepository userRepository;
+    private UserRepository userRepository;
 
     //CREATE
     @RequestMapping(value = "users", method = RequestMethod.POST)
-    public User create(@RequestBody User user){
-        return userRepository.saveAndFlush(user);
+    public ResponseEntity<User> create(@RequestBody User user){
+        return new ResponseEntity<User>(userRepository.saveAndFlush(user),HttpStatus.CREATED);
     }
 
     //READ

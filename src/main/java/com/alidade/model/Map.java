@@ -8,5 +8,6 @@ public class Map {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    private List<Destination> destinations;
+
+//    private List<Destination> destinations;
 }
