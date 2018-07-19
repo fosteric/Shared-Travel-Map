@@ -6,8 +6,11 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @RequestMapping(path="api/v1/")
+@CrossOrigin
 public class DestinationController {
 
     @Autowired
@@ -19,10 +22,16 @@ public class DestinationController {
         return destinationRepository.saveAndFlush(destination);
     }
 
-    //READ
+    //READ-ONE
     @RequestMapping(value = "destinations/{id}", method = RequestMethod.GET)
     public Destination get(@PathVariable Long id){
         return destinationRepository.findOne(id);
+    }
+
+    //READ-ALL
+    @RequestMapping(value = "destinations", method = RequestMethod.GET)
+    public List<Destination> get(){
+        return destinationRepository.findAll();
     }
 
     //UPDATE
