@@ -1,5 +1,9 @@
 package com.alidade.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import org.hibernate.annotations.OnDelete;
+import org.hibernate.annotations.OnDeleteAction;
+
 import javax.persistence.*;
 import java.util.Date;
 
@@ -18,7 +22,13 @@ public class Destination {
     private String favoriteThing;
     private String notes;
 
-    public void setId(long id) {
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @JoinColumn(name = "profile_id", nullable = false)
+    @OnDelete(action = OnDeleteAction.CASCADE)
+    @JsonIgnore
+    private Profile profile;
+
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -89,4 +99,13 @@ public class Destination {
     public void setNotes(String notes) {
         this.notes = notes;
     }
+
+    public Profile getProfile() {
+        return profile;
+    }
+
+    public void setProfile(Profile profile) {
+        this.profile = profile;
+    }
+
 }

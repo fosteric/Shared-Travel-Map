@@ -1,6 +1,6 @@
 package com.alidade.controller;
 
-import com.alidade.model.User;
+import com.alidade.model.Profile;
 import com.alidade.repository.UserRepository;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,30 +17,30 @@ public class UserController {
 
     //CREATE
     @RequestMapping(value = "users", method = RequestMethod.POST)
-    public ResponseEntity<User> create(@RequestBody User user){
-        return new ResponseEntity<User>(userRepository.saveAndFlush(user),HttpStatus.CREATED);
+    public ResponseEntity<Profile> create(@RequestBody Profile profile){
+        return new ResponseEntity<Profile>(userRepository.saveAndFlush(profile),HttpStatus.CREATED);
     }
 
     //READ
     @RequestMapping(value = "users/{id}", method = RequestMethod.GET)
-    public User get(@PathVariable Long id){
+    public Profile get(@PathVariable Long id){
         return userRepository.findOne(id);
     }
 
     //UPDATE
     @RequestMapping(value = "users/{id}", method = RequestMethod.PUT)
-    public User update(@PathVariable Long id, @RequestBody User user){
-        User userToUpdate = userRepository.findOne(id);
-        BeanUtils.copyProperties(user, userToUpdate);
-        return userRepository.saveAndFlush(userToUpdate);
+    public Profile update(@PathVariable Long id, @RequestBody Profile profile){
+        Profile profileToUpdate = userRepository.findOne(id);
+        BeanUtils.copyProperties(profile, profileToUpdate);
+        return userRepository.saveAndFlush(profileToUpdate);
     }
 
     //DELETE
     @RequestMapping(value = "users/{id}", method = RequestMethod.DELETE)
-    public User delete(@PathVariable Long id){
-        User userToDelete = userRepository.findOne(id);
-        userRepository.delete(userToDelete);
-        return userToDelete;
+    public Profile delete(@PathVariable Long id){
+        Profile profileToDelete = userRepository.findOne(id);
+        userRepository.delete(profileToDelete);
+        return profileToDelete;
     }
 
 

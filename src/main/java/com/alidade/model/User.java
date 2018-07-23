@@ -1,5 +1,7 @@
 package com.alidade.model;
 
+import sun.java2d.cmm.Profile;
+
 import javax.persistence.*;
 
 @Entity
@@ -8,13 +10,22 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    private String userName;
+
+    @Column(name = "FIRST_NAME")
     private String firstName;
+
+    @Column(name = "LAST_NAME")
     private String lastName;
-    private String homeCity;
-    private String homeCountry;
-    private String description;
-    private String imagePath;
+
+    @OneToOne(fetch = FetchType.LAZY,
+            cascade = CascadeType.ALL,
+            mappedBy = "user")
+    private Login login;
+
+    @OneToOne(fetch = FetchType.LAZY,
+            cascade = CascadeType.ALL,
+            mappedBy = "user")
+    private Profile profile;
 
     public Long getId() {
         return id;
@@ -22,14 +33,6 @@ public class User {
 
     public void setId(Long id) {
         this.id = id;
-    }
-
-    public String getUserName() {
-        return userName;
-    }
-
-    public void setUserName(String userName) {
-        this.userName = userName;
     }
 
     public String getFirstName() {
@@ -48,36 +51,20 @@ public class User {
         this.lastName = lastName;
     }
 
-    public String getHomeCity() {
-        return homeCity;
+    public Login getLogin() {
+        return login;
     }
 
-    public void setHomeCity(String homeCity) {
-        this.homeCity = homeCity;
+    public void setLogin(Login login) {
+        this.login = login;
     }
 
-    public String getHomeCountry() {
-        return homeCountry;
+    public Profile getProfile() {
+        return profile;
     }
 
-    public void setHomeCountry(String homeCountry) {
-        this.homeCountry = homeCountry;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public String getImagePath() {
-        return imagePath;
-    }
-
-    public void setImagePath(String imagePath) {
-        this.imagePath = imagePath;
+    public void setProfile(Profile profile) {
+        this.profile = profile;
     }
 
 }

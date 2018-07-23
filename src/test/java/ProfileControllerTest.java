@@ -1,5 +1,5 @@
 import com.alidade.controller.UserController;
-import com.alidade.model.User;
+import com.alidade.model.Profile;
 import com.alidade.repository.UserRepository;
 import org.junit.Before;
 import org.junit.Test;
@@ -12,7 +12,7 @@ import static org.hamcrest.core.Is.is;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-public class UserControllerTest {
+public class ProfileControllerTest {
 
     @InjectMocks
     private UserController uc;
@@ -28,18 +28,18 @@ public class UserControllerTest {
 
     @Test
     public void testUserCreate(){
-        User user = new User();
-        user.setId(1L);
+        Profile profile = new Profile();
+        profile.setId(1L);
     }
 
     @Test
     public void testUserGet(){
-        User user = new User();
-        user.setId(1L);
-        when(userRepository.findOne(1l)).thenReturn(user);
-        User userTest = uc.get(1L);
+        Profile profile = new Profile();
+        profile.setId(1L);
+        when(userRepository.findOne(1l)).thenReturn(profile);
+        Profile profileTest = uc.get(1L);
         verify(userRepository).findOne(1l);
-        assertThat(userTest.getId(), is(1l));
+        assertThat(profileTest.getId(), is(1l));
     }
 
 }
