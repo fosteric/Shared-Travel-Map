@@ -1,6 +1,6 @@
-import com.alidade.controller.UserController;
-import com.alidade.model.User;
-import com.alidade.repository.UserRepository;
+import com.alidade.user.UserController;
+import com.alidade.user.User;
+import com.alidade.user.UserRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.InjectMocks;

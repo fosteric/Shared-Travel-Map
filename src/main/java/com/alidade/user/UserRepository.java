@@ -1,6 +1,5 @@
-package com.alidade.repository;
+package com.alidade.user;
 
-import com.alidade.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

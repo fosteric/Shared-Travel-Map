@@ -1,6 +1,7 @@
-package com.alidade.model;
+package com.alidade.map;
 
 import javax.persistence.*;
+import java.util.Date;
 
 @Entity
 public class Destination {
@@ -8,11 +9,11 @@ public class Destination {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    private String destinationType;
+    private String destinationState;
     private String city;
     private String country;
-    private String startDate;
-    private String endDate;
+    private Date startDate;
+    private Date endDate;
     private String travelType;
     private String favoriteThing;
     private String notes;
@@ -25,12 +26,12 @@ public class Destination {
         return this.id;
     }
 
-    public String getDestinationType() {
-        return destinationType;
+    public String getDestinationState() {
+        return destinationState;
     }
 
-    public void setDestinationType(String destinationType) {
-        this.destinationType = destinationType;
+    public void setDestinationState(String destinationState) {
+        this.destinationState = destinationState;
     }
 
     public String getCity() {
@@ -49,19 +50,19 @@ public class Destination {
         this.country = country;
     }
 
-    public String getStartDate() {
+    public Date getStartDate() {
         return startDate;
     }
 
-    public void setStartDate(String startDate) {
+    public void setStartDate(Date startDate) {
         this.startDate = startDate;
     }
 
-    public String getEndDate() {
+    public Date getEndDate() {
         return endDate;
     }
 
-    public void setEndDate(String endDate) {
+    public void setEndDate(Date endDate) {
         this.endDate = endDate;
     }
 

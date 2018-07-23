@@ -1,6 +1,6 @@
-import com.alidade.controller.DestinationController;
-import com.alidade.model.Destination;
-import com.alidade.repository.DestinationRepository;
+import com.alidade.map.DestinationController;
+import com.alidade.map.Destination;
+import com.alidade.map.DestinationRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.InjectMocks;

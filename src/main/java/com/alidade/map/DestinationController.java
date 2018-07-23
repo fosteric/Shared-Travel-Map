@@ -1,7 +1,7 @@
-package com.alidade.controller;
+package com.alidade.map;
 
-import com.alidade.model.Destination;
-import com.alidade.repository.DestinationRepository;
+import com.alidade.map.Destination;
+import com.alidade.map.DestinationRepository;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

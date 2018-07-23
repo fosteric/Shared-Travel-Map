@@ -1,4 +1,4 @@
-package com.alidade.model;
+package com.alidade.map;
 
 import javax.persistence.*;
 import java.util.List;

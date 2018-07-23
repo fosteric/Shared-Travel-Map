@@ -1,4 +1,4 @@
-import com.alidade.controller.HomeController;
+import com.alidade.home.HomeController;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;

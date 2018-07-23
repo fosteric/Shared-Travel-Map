@@ -1,6 +1,5 @@
-package com.alidade.repository;
+package com.alidade.map;
 
-import com.alidade.model.Destination;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
