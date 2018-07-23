@@ -1,14 +1,14 @@
 package com.alidade.model;
 
-import sun.java2d.cmm.Profile;
-
 import javax.persistence.*;
 
 @Entity
+@Table(name = "USER")
 public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "USER_ID")
     private Long id;
 
     @Column(name = "FIRST_NAME")
@@ -17,14 +17,10 @@ public class User {
     @Column(name = "LAST_NAME")
     private String lastName;
 
-    @OneToOne(fetch = FetchType.LAZY,
-            cascade = CascadeType.ALL,
-            mappedBy = "user")
+    @OneToOne(mappedBy = "user")
     private Login login;
 
-    @OneToOne(fetch = FetchType.LAZY,
-            cascade = CascadeType.ALL,
-            mappedBy = "user")
+    @OneToOne(mappedBy = "user")
     private Profile profile;
 
     public Long getId() {

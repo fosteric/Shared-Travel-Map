@@ -3,22 +3,22 @@ package com.alidade.model;
 import javax.persistence.*;
 
 @Entity
+@Table(name = "LOGIN")
 public class Login {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "LOGIN_ID")
     private Long id;
 
-    @Column(name = "email")
+    @Column(name = "EMAIL")
     private String email;
 
-    @Column(name = "password")
+    @Column(name = "PASSWORD")
     private String password;
 
-    @OneToOne(fetch = FetchType.LAZY,
-            optional=false)
-    @JoinColumn(name = "user_id",
-            nullable = false)
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "USER_ID")
     private User user;
 
     public Long getId() {

@@ -1,33 +1,34 @@
 package com.alidade.model;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
+@Table(name = "PROFILE")
 public class Profile {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    @Column(name = "username")
+    @Column(name = "USERNAME")
     private String userName;
 
-    @Column(name = "home_city")
+    @Column(name = "HOME_CITY")
     private String homeCity;
 
-    @Column(name = "home_country")
+    @Column(name = "HOME_COUNTRY")
     private String homeCountry;
 
-    @Column(name = "description")
+    @Column(name = "DESCRIPTION")
     private String description;
 
-    @Column(name = "image_path")
+    @Column(name = "IMAGE_PATH")
     private String imagePath;
 
-    @OneToOne(fetch = FetchType.LAZY,
-            optional=false)
-    @JoinColumn(name = "user_id",
-            nullable = false)
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "USER_ID")
     private User user;
 
     public Long getId() {

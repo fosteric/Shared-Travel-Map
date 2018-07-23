@@ -8,22 +8,40 @@ import javax.persistence.*;
 import java.util.Date;
 
 @Entity
+@Table(name = "DESTINATION")
 public class Destination {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "DESTINATION_ID")
     private Long id;
+
+    @Column(name = "DESTINATION_STATE")
     private String destinationState;
+
+    @Column(name = "CITY")
     private String city;
+
+    @Column(name = "COUNTRY")
     private String country;
+
+    @Column(name = "START_DATE")
     private Date startDate;
+
+    @Column(name = "END_DATE")
     private Date endDate;
+
+    @Column(name = "TRAVEL_TYPE")
     private String travelType;
+
+    @Column(name = "FAVORITE_THING")
     private String favoriteThing;
+
+    @Column(name = "NOTES")
     private String notes;
 
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
-    @JoinColumn(name = "profile_id", nullable = false)
+    @JoinColumn(name = "PROFILE_ID", nullable = false)
     @OnDelete(action = OnDeleteAction.CASCADE)
     @JsonIgnore
     private Profile profile;
@@ -98,14 +116,6 @@ public class Destination {
 
     public void setNotes(String notes) {
         this.notes = notes;
-    }
-
-    public Profile getProfile() {
-        return profile;
-    }
-
-    public void setProfile(Profile profile) {
-        this.profile = profile;
     }
 
 }
