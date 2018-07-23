@@ -1,4 +1,4 @@
-package com.alidade.home;
+package com.alidade.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

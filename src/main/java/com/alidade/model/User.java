@@ -1,9 +1,10 @@
-package com.alidade.user;
+package com.alidade.model;
 
 import javax.persistence.*;
 
 @Entity
 public class User {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
@@ -15,13 +16,12 @@ public class User {
     private String description;
     private String imagePath;
 
-
-    public void setId(long id) {
-        this.id = id;
+    public Long getId() {
+        return id;
     }
 
-    public Long getId() {
-        return this.id;
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getUserName() {
@@ -79,4 +79,5 @@ public class User {
     public void setImagePath(String imagePath) {
         this.imagePath = imagePath;
     }
+
 }

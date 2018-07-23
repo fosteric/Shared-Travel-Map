@@ -1,4 +1,4 @@
-package com.alidade.map;
+package com.alidade.model;
 
 import javax.persistence.*;
 import java.util.List;
@@ -8,6 +8,5 @@ public class Map {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-
-//    private List<Destination> destinations;
+    private List<Destination> destinations;
 }

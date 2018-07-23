@@ -1,4 +1,4 @@
-package com.alidade.map;
+package com.alidade.model;
 
 import javax.persistence.*;
 import java.util.Date;

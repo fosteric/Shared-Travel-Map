@@ -1,7 +1,7 @@
-package com.alidade.user;
+package com.alidade.controller;
 
-import com.alidade.user.User;
-import com.alidade.user.UserRepository;
+import com.alidade.model.User;
+import com.alidade.repository.UserRepository;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
