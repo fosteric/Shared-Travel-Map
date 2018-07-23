@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad381d05-32c5-4ad5-8041-a0cb51a71fd9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alidade/model/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alidade/home/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alidade/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alidade/map/Destination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alidade/model/Destination.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alidade/map/DestinationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alidade/controller/DestinationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alidade/map/DestinationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alidade/repository/DestinationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alidade/map/DestinationState.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alidade/map/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alidade/model/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alidade/user/FriendList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alidade/model/FriendList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alidade/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alidade/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alidade/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alidade/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alidade/user/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alidade/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DestinationControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DestinationControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alidade/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alidade/model/Account.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,8 +39,11 @@
       <file leaf-file-name="Account.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/model/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            <state relative-caret-position="270">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -497,7 +487,7 @@
       <workItem from="1531762938122" duration="894000" />
       <workItem from="1531932455408" duration="4691000" />
       <workItem from="1532000475012" duration="5571000" />
-      <workItem from="1532369057862" duration="591000" />
+      <workItem from="1532369057862" duration="1753000" />
     </task>
     <servers />
   </component>
@@ -516,7 +506,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50594000" />
+    <option name="totallyTimeSpent" value="51756000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -786,8 +776,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alidade/model/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        <state relative-caret-position="270">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
