@@ -27,6 +27,11 @@ public class Profile {
     @Column(name = "IMAGE_PATH")
     private String imagePath;
 
+    @ManyToMany
+    @JoinTable(name = "FRIENDLIST", joinColumns = { @JoinColumn(name = "PROFILE_ID") },
+            inverseJoinColumns = { @JoinColumn(name = "FRIEND_PROFILE_ID") })
+    private List<Profile> friendList;
+
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "USER_ID")
     private User user;
@@ -77,6 +82,14 @@ public class Profile {
 
     public void setImagePath(String imagePath) {
         this.imagePath = imagePath;
+    }
+
+    public List<Profile> getFriend() {
+        return friendList;
+    }
+
+    public void setFriend(List<Profile> friend) {
+        this.friendList = friend;
     }
 
     public User getUser() {

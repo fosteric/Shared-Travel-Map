@@ -1,6 +1,6 @@
-import com.alidade.controller.UserController;
+import com.alidade.controller.ProfileController;
 import com.alidade.model.Profile;
-import com.alidade.repository.UserRepository;
+import com.alidade.repository.ProfileRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.InjectMocks;
@@ -15,10 +15,10 @@ import static org.mockito.Mockito.when;
 public class ProfileControllerTest {
 
     @InjectMocks
-    private UserController uc;
+    private ProfileController uc;
 
     @Mock
-    private UserRepository userRepository;
+    private ProfileRepository profileRepository;
 
     @Before
     public void init(){
@@ -36,9 +36,9 @@ public class ProfileControllerTest {
     public void testUserGet(){
         Profile profile = new Profile();
         profile.setId(1L);
-        when(userRepository.findOne(1l)).thenReturn(profile);
+        when(profileRepository.findOne(1l)).thenReturn(profile);
         Profile profileTest = uc.get(1L);
-        verify(userRepository).findOne(1l);
+        verify(profileRepository).findOne(1l);
         assertThat(profileTest.getId(), is(1l));
     }
 

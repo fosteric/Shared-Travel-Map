@@ -9,7 +9,7 @@ public class AppTest {
     public void testApp(){
         HomeController hc = new HomeController();
         String actual = hc.home();
-        String expected = "Shared travel app is up and running";
+        String expected = "Shared travel map application is up and running!";
         assertEquals(expected, actual);
     }
 

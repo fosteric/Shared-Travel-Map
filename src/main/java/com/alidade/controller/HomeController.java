@@ -8,7 +8,7 @@ public class HomeController {
 
     @RequestMapping("/")
     public String home() {
-        return "Shared travel app is up and running!";
+        return "Shared travel map application is up and running!";
     }
 
 }

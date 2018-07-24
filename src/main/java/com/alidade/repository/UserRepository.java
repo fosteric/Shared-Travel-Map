@@ -1,9 +1,7 @@
 package com.alidade.repository;
 
-import com.alidade.model.Profile;
+import com.alidade.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Repository;
 
-@Repository
-public interface UserRepository extends JpaRepository<Profile, Long> {
+public interface UserRepository extends JpaRepository<User, Long> {
 }

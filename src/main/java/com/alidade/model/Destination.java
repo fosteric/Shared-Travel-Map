@@ -43,7 +43,7 @@ public class Destination {
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "PROFILE_ID", nullable = false)
     @OnDelete(action = OnDeleteAction.CASCADE)
-    @JsonIgnore
+    //@JsonIgnore
     private Profile profile;
 
     public void setId(Long id) {
@@ -118,4 +118,11 @@ public class Destination {
         this.notes = notes;
     }
 
+    public Long getProfileId() {
+        return profile.getId();
+    }
+
+    public void setProfile(Profile profile) {
+        this.profile = profile;
+    }
 }
