@@ -25,7 +25,6 @@ public class DestinationControllerTest {
         MockitoAnnotations.initMocks(this);
     }
 
-
     @Test
     public void testUserCreate() {
         Destination destination = new Destination();

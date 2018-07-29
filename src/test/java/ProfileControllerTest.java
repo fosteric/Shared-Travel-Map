@@ -25,7 +25,6 @@ public class ProfileControllerTest {
         MockitoAnnotations.initMocks(this);
     }
 
-
     @Test
     public void testUserCreate(){
         Profile profile = new Profile();

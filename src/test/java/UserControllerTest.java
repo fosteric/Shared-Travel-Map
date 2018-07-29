@@ -25,7 +25,6 @@ public class UserControllerTest {
         MockitoAnnotations.initMocks(this);
     }
 
-
     @Test
     public void testUserCreate() {
         User user = new User();

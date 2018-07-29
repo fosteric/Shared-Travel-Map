@@ -25,7 +25,6 @@ public class LoginControllerTest {
         MockitoAnnotations.initMocks(this);
     }
 
-
     @Test
     public void testUserCreate() {
         Login login = new Login();
