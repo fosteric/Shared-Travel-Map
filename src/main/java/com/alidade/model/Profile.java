@@ -10,6 +10,7 @@ public class Profile {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "PROFILE_ID")
     private Long id;
 
     @Column(name = "USERNAME")
@@ -32,7 +33,7 @@ public class Profile {
             inverseJoinColumns = { @JoinColumn(name = "FRIEND_PROFILE_ID") })
     private List<Profile> friendList;
 
-    @OneToOne(cascade = CascadeType.ALL)
+    @OneToOne
     @JoinColumn(name = "USER_ID")
     private User user;
 

@@ -21,6 +21,7 @@ public class UserController {
         return new ResponseEntity<>(userRepository.saveAndFlush(user), HttpStatus.CREATED);
     }
 
+    //READ
     @RequestMapping(value = "users/{id}", method = RequestMethod.GET)
     public User get(@PathVariable Long id) {
         return userRepository.findOne(id);
