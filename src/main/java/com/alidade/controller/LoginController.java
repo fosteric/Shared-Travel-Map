@@ -5,16 +5,19 @@ import com.alidade.repository.LoginRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Optional;
+
+import static com.alidade.config.LoginApis.LOGIN_BASE_URL;
+
 @RestController
-@RequestMapping(path="api/v1/")
 @CrossOrigin
 public class LoginController {
 
     @Autowired
     private LoginRepository loginRepository;
 
-    @RequestMapping(value = "users/login/{id}", method = RequestMethod.GET)
-    public Login get(@PathVariable Long id) {
-        return loginRepository.findOne(id);
+    @GetMapping(path = LOGIN_BASE_URL)
+    public Optional<Login> getLoginById(@PathVariable Long id) {
+        return loginRepository.findById(id);
     }
 }

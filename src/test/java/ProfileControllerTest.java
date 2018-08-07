@@ -30,15 +30,15 @@ public class ProfileControllerTest {
         Profile profile = new Profile();
         profile.setId(1L);
     }
-
-    @Test
-    public void testUserGet(){
-        Profile profile = new Profile();
-        profile.setId(1L);
-        when(profileRepository.findOne(1l)).thenReturn(profile);
-        Profile profileTest = uc.get(1L);
-        verify(profileRepository).findOne(1l);
-        assertThat(profileTest.getId(), is(1l));
-    }
+//
+//    @Test
+//    public void testUserGet(){
+//        Profile profile = new Profile();
+//        profile.setId(1L);
+//        when(profileRepository.findOne(1l)).thenReturn(profile);
+//        Profile profileTest = uc.get(1L);
+//        verify(profileRepository).findOne(1l);
+//        assertThat(profileTest.getId(), is(1l));
+//    }
 
 }

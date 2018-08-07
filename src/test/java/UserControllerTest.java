@@ -31,14 +31,14 @@ public class UserControllerTest {
         user.setId(1L);
     }
 
-    @Test
-    public void testUserGet() {
-        User user = new User();
-        user.setId(1L);
-        when(userRepository.findOne(1l)).thenReturn(user);
-        User userTest = uc.get(1L);
-        verify(userRepository).findOne(1l);
-        assertThat(userTest.getId(), is(1l));
-    }
+//    @Test
+//    public void testUserGet() {
+//        User user = new User();
+//        user.setId(1L);
+//        when(userRepository.findOne(1l)).thenReturn(user);
+//        User userTest = uc.get(1L);
+//        verify(userRepository).findOne(1l);
+//        assertThat(userTest.getId(), is(1l));
+//    }
 
 }

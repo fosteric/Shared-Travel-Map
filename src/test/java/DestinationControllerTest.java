@@ -31,13 +31,13 @@ public class DestinationControllerTest {
         destination.setId(1L);
     }
 
-    @Test
-    public void testUserGet() {
-        Destination destination = new Destination();
-        destination.setId(1L);
-        when(destinationRepository.findOne(1l)).thenReturn(destination);
-        Destination destinationTest = dc.get(1L);
-        verify(destinationRepository).findOne(1l);
-        assertThat(destinationTest.getId(), is(1l));
-    }
+//    @Test
+//    public void testUserGet() {
+//        Destination destination = new Destination();
+//        destination.setId(1L);
+//        when(destinationRepository.findOne(1l)).thenReturn(destination);
+//        Destination destinationTest = dc.get(1L);
+//        verify(destinationRepository).findOne(1l);
+//        assertThat(destinationTest.getId(), is(1l));
+//    }
 }

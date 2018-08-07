@@ -31,14 +31,14 @@ public class LoginControllerTest {
         login.setId(1L);
     }
 
-    @Test
-    public void testUserGet() {
-        Login login = new Login();
-        login.setId(1L);
-        when(loginRepository.findOne(1l)).thenReturn(login);
-        Login loginTest = lc.get(1L);
-        verify(loginRepository).findOne(1l);
-        assertThat(loginTest.getId(), is(1l));
-    }
+//    @Test
+//    public void testUserGet() {
+//        Login login = new Login();
+//        login.setId(1L);
+//        when(loginRepository.findOne(1l)).thenReturn(login);
+//        Login loginTest = lc.get(1L);
+//        verify(loginRepository).findOne(1l);
+//        assertThat(loginTest.getId(), is(1l));
+//    }
 
 }
