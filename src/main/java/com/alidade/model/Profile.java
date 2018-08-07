@@ -1,11 +1,15 @@
 package com.alidade.model;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
 @Entity
 @Table(name = "PROFILE")
+@Getter @Setter
 public class Profile {
 
     @Id
@@ -37,67 +41,4 @@ public class Profile {
     @JoinColumn(name = "USER_ID")
     private User user;
 
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getUserName() {
-        return userName;
-    }
-
-    public void setUserName(String userName) {
-        this.userName = userName;
-    }
-
-    public String getHomeCity() {
-        return homeCity;
-    }
-
-    public void setHomeCity(String homeCity) {
-        this.homeCity = homeCity;
-    }
-
-    public String getHomeCountry() {
-        return homeCountry;
-    }
-
-    public void setHomeCountry(String homeCountry) {
-        this.homeCountry = homeCountry;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public String getImagePath() {
-        return imagePath;
-    }
-
-    public void setImagePath(String imagePath) {
-        this.imagePath = imagePath;
-    }
-
-    public List<Profile> getFriend() {
-        return friendList;
-    }
-
-    public void setFriend(List<Profile> friend) {
-        this.friendList = friend;
-    }
-
-    public User getUser() {
-        return user;
-    }
-
-    public void setUser(User user) {
-        this.user = user;
-    }
 }
