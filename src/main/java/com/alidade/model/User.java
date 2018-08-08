@@ -21,12 +21,10 @@ public class User {
     @Column(name = "LAST_NAME")
     private String lastName;
 
-    @OneToOne(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    @JoinColumn(name = "USER_ID")
+    @OneToOne(mappedBy = "user", cascade = CascadeType.ALL)
     private Login login;
 
-    @OneToOne(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    @JoinColumn(name = "USER_ID")
+    @OneToOne(mappedBy = "user", cascade = CascadeType.ALL)
     private Profile profile;
 
 }

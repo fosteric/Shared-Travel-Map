@@ -4,7 +4,6 @@ import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
-import java.util.ArrayList;
 import java.util.List;
 
 @Entity
@@ -33,7 +32,8 @@ public class Profile {
     private String imagePath;
 
     @ManyToMany
-    @JoinTable(name = "FRIENDLIST", joinColumns = { @JoinColumn(name = "PROFILE_ID") },
+    @JoinTable(name = "FRIENDLIST",
+            joinColumns = { @JoinColumn(name = "PROFILE_ID") },
             inverseJoinColumns = { @JoinColumn(name = "FRIEND_PROFILE_ID") })
     private List<Profile> friendList;
 

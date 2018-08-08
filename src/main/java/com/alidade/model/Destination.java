@@ -1,5 +1,6 @@
 package com.alidade.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.annotations.OnDelete;
@@ -45,6 +46,7 @@ public class Destination {
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "PROFILE_ID", nullable = false)
     @OnDelete(action = OnDeleteAction.CASCADE)
+    @JsonIgnore
     private Profile profile;
 
 }

@@ -8,6 +8,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Collection;
 import java.util.Optional;
 
 import static com.alidade.config.ProfileApis.PROFILE_BASE_URL;
@@ -21,8 +22,13 @@ public class ProfileController {
     private ProfileRepository profileRepository;
 
     @PostMapping(value = PROFILE_BASE_URL)
-    public ResponseEntity<Profile> createProfile(@RequestBody Profile profile){
-        return new ResponseEntity<>(profileRepository.saveAndFlush(profile), HttpStatus.CREATED);
+    public Profile createProfile(@RequestBody Profile profile){
+        return profileRepository.save(profile);
+    }
+
+    @GetMapping(value = PROFILE_BASE_URL)
+    public Collection<Profile> getAllProfiles(){
+        return profileRepository.findAll();
     }
 
     @GetMapping(value = PROFILE_BY_ID)

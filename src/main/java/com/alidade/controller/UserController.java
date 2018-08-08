@@ -3,8 +3,6 @@ package com.alidade.controller;
 import com.alidade.model.User;
 import com.alidade.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Optional;
@@ -20,8 +18,8 @@ public class UserController {
     private UserRepository userRepository;
 
     @PostMapping(value = USER_BASE_URL)
-    public ResponseEntity<User> createUser(@RequestBody User user){
-        return new ResponseEntity<>(userRepository.saveAndFlush(user), HttpStatus.CREATED);
+    public User createUser(@RequestBody User user){
+        return userRepository.save(user);
     }
 
     @GetMapping(value = USER_BY_ID)

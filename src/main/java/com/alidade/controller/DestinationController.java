@@ -20,7 +20,7 @@ public class DestinationController {
 
     @PostMapping(path = DESTINATION_BASE_URL)
     public Destination createDestination(@RequestBody Destination destination){
-        return destinationRepository.saveAndFlush(destination);
+        return destinationRepository.save(destination);
     }
 
     @GetMapping(path = DESTINATION_BY_ID)
